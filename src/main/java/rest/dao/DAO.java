@@ -5,7 +5,7 @@ public class DAO {
 
 	public Connection setDBConnection()
 	{	
-		Connection conn = null;
+		Connection conn = null; 
 	    
 		try {
 			Class.forName("com.mysql.jdbc.Driver");
